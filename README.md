@@ -1,3 +1,8 @@
+# Program Overview
+
+## Fizzbuzz
+Description: Given some array, iterate through the array and upon chosen conditions, print fizzbuzz
+
 # Review Topics
 
 ## // (divide and floor)
