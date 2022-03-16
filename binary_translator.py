@@ -2,7 +2,7 @@
 
 # Choose whether to convert binary into number or vice versa
 
-print('Convert binary into number (1) or number into binary (0)')
+print('Convert binary into number or number into binary')
 
 
 # convert binary function
