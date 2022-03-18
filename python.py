@@ -17,16 +17,16 @@ shutoffCommand = 'exit'
 target = 'target'
 
 while True:
-    userInput = input('enter a target guess with similar length to target: ')
+    userInput = input('enter a target guess with similar length to target (type exit to leave): ')
     if userInput == shutoffCommand:
         break
-    elif userInput < len(target):
+    elif len(userInput) < len(target):
         userInputDiff = len(target) - len(userInput)
-        print('answer is ' + userInputDiff + ' less than target')
+        print('answer is less than target by', userInputDiff)
         continue
-    elif userInput > len(target):
+    elif len(userInput) > len(target):
         userInputDiff = len(userInput) - len(target)
-        print('answer is ' + userInputDiff + ' more than target')
+        print('answer is more than target by', userInputDiff)
         continue
     print('length of string is', len(userInput))
 print('Task completed')
