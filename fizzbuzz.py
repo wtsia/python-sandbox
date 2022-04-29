@@ -21,11 +21,12 @@ def fizzbuzzParser(array, i=0):
         if i % 3 == 0:
             print("Fizzbuzz")
             i += 1
-            print('index is ', i)
+            print('index is now', i)
         else:
+            print('index was ', i)
             print(array[i])
             i += 1
-            print('index is ', i)
+            print('index is now ', i)
     else:
         print("task completed")
 
